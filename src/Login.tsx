@@ -27,7 +27,7 @@ function Login() {
 
             if (response.data.token) {
                 toast.success('Inicio de sesión exitoso');
-                navigate('/home');
+                navigate('/dashboard');
             } else {
                 toast.error('Verifique las credenciales');
             }
